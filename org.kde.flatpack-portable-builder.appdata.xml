@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop-application">
+  <id>org.kde.flatpack-portable-builder</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <name>Flatpak Portable Builder</name>
+  <summary>Create Flatpak packages from Windows PortableApps</summary>
+  
+  <description>
+    <p>
+      Flatpak Portable Builder is a tool that allows you to convert Windows PortableApps
+      into Flatpak packages using Wine. This makes it easy to distribute and run Windows
+      portable applications on Linux systems with proper desktop integration.
+    </p>
+    <p>
+      Features:
+    </p>
+    <ul>
+      <li>Import Windows PortableApps</li>
+      <li>Configure Wine environment</li>
+      <li>Generate Flatpak manifests</li>
+      <li>Build and install Flatpak packages</li>
+      <li>Support for DXVK for DirectX games</li>
+    </ul>
+  </description>
+  
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main application window</caption>
+      <image>https://example.org/screenshots/flatpack-portable-builder.png</image>
+    </screenshot>
+  </screenshots>
+  
+  <url type="homepage">https://github.com/yourusername/flatpack-portable-builder</url>
+  <url type="bugtracker">https://github.com/yourusername/flatpack-portable-builder/issues</url>
+  <url type="help">https://github.com/yourusername/flatpack-portable-builder/wiki</url>
+  
+  <provides>
+    <binary>flatpack-portable-builder</binary>
+  </provides>
+  
+  <launchable type="desktop-id">org.kde.flatpack-portable-builder.desktop</launchable>
+  
+  <developer_name>Your Name</developer_name>
+  <update_contact>your@email.com</update_contact>
+  
+  <content_rating type="oars-1.1" />
+  
+  <releases>
+    <release version="1.0" date="2025-03-15">
+      <description>
+        <p>Initial release of Flatpak Portable Builder</p>
+        <ul>
+          <li>Basic support for converting PortableApps to Flatpak</li>
+          <li>Wine configuration options</li>
+          <li>DXVK support for games</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

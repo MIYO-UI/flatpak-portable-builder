@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Flatpak Portable Builder
+Name[pl]=Kreator pakietów Flatpak dla aplikacji przenośnych
+GenericName=Windows PortableApps to Flatpak converter
+GenericName[pl]=Konwerter aplikacji przenośnych Windows do formatu Flatpak
+Comment=Create Flatpak packages from Windows PortableApps
+Comment[pl]=Twórz pakiety Flatpak z przenośnych aplikacji Windows
+Exec=flatpack-portable-builder
+Icon=package-x-generic
+Type=Application
+Terminal=false
+Categories=Development;Utility;Qt;KDE;
+X-KDE-StartupNotify=true
+X-DBUS-StartupType=Unique
